@@ -12,22 +12,22 @@ The project is organized into two folders:
 
 ### 1. Clone the repo
 ```bash
-git clone <your_repo_url>
+git clone https://github.com/AnshuPandey108/miniproject.git
 cd miniproject
-
+```
 
 ### 2. Backend Setup
-
+```bash
 cd backend
 npm install
 cp  .env  
 npm run dev
-
+```
 ### 3.Frontend Setup
-
+```bash
 cd ../frontend
 npm install
 cp  .env   
 npm start
-
+```
 
