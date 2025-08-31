@@ -30,4 +30,22 @@ npm install
 cp  .env   
 npm start
 ```
+### Environment Variables
+
+```bash
+1.BAckend:
+PORT=5000
+MONGO_URI=mongodb://127.0.0.1:27017/project_manager
+JWT_SECRET=supersecretkey123
+ACCESS_TOKEN_SECRET=supersecretaccesstoken
+REFRESH_TOKEN_SECRET=supersecretrefreshtoken
+ACCESS_TOKEN_EXPIRE=15m
+REFRESH_TOKEN_EXPIRE=7d
+
+2.Frontend
+VITE_API_URL=http://localhost:5000/api
+
+```
+
+
 
